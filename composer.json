@@ -15,6 +15,12 @@
             "homepage": "http://symfony.com/contributors"
         }
     ],
+    "repositories" : [
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/ConneXNL/expression-language"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/icu": "~1.0",
@@ -33,7 +39,7 @@
         "symfony/doctrine-bridge": "self.version",
         "symfony/dom-crawler": "self.version",
         "symfony/event-dispatcher": "self.version",
-        "symfony/expression-language": "self.version",
+        "symfony/expression-language": "dev-protected-fix",
         "symfony/filesystem": "self.version",
         "symfony/finder": "self.version",
         "symfony/form": "self.version",
